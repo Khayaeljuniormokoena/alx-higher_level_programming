@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 number = 3.14159
-print(f"FLOAT: {number:.2f}")
+formatted_num = f"{number:.2f}"
+print(f"Float: {formatted_num}\n")
