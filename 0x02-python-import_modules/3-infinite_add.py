@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if__name__ == "__main__":
-    import sys, math
+    import sys
     result = 0
-    for i in sys.argv:
-        result += int(i)
+    for arg in sys.argv[1:]:
+        result += int(arg)
         print("{}".format(result))
