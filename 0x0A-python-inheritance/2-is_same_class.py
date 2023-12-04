@@ -1,4 +1,3 @@
-2-is_same_class.py
 #!/usr/bin/python3
 """Defines a class-checking function."""
 
